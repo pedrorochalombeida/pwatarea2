@@ -1,0 +1,128 @@
+/* Estilo para el fondo de la página */
+body {
+    background-color: #f4f4f4; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Estilo para el encabezado */
+.header {
+    background-color: #333; /* Fondo negro para el encabezado */
+    color: #fff; /* Texto en color blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el título */
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.boton-volver {
+    margin-right:auto; /* Empuja el botón hacia la izquierda */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* estilos para los botones*/
+.boton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.boton img {
+    width: 50px; /* Ajusta el ancho de las imágenes según tu preferencia */
+    height: 50px; /* Ajusta la altura de las imágenes según tu preferencia */
+}
+
+.boton:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón por encima del botón */
+}
+
+
+
+
+
+
+nav {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+
+.submenuServicio {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+}
+
+.submenuServicio ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.submenuServicio ul li a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li:hover .submenuServicio {
+    display: block;
+}
+
+.submenuProducto {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+}
+
+.submenuProducto ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.submenuProducto ul li a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li:hover .submenuProducto {
+    display: block;
+}

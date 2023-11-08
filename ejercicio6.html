@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 7: Menú de Navegación Desplegable</title>
+    <link rel="stylesheet" type="text/css" href="style_ej6.css">
+</head>
+<body>
+    <div class="navbar">
+        <a class="menu-icon" id="menuIcon">&#9776;</a>
+        <a class="active" href="index.html">Inicio</a>
+       
+    </div>
+
+
+    <div class="outer-container">
+        <div class="container">
+            <h2>Lista de Tareas</h2>
+            <input type="text" id="task" placeholder="Nueva tarea">
+            <button onclick="addTask()">Agregar tarea</button>
+            <table id="taskTable">
+                <tr>
+                    <th>Tarea</th>
+                    <th>Eliminar</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="script_eje6.js"></script>
+</body>
+</html>

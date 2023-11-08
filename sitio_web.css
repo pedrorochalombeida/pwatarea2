@@ -1,0 +1,185 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+#encabezado {
+    background-color: #00cc99; /* Verde claro */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para el menú */
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #000; /* Negro */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #fff; /* Blanco */
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+#menu ul .desplegable {
+    position: relative;
+}
+
+#menu ul .desplegable .submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+
+#menu ul .desplegable:hover .submenu {
+    display: block;
+}
+
+#menu ul .submenu li {
+    display: block;
+    margin: 5px 0;
+}
+
+#menu ul .submenu li a {
+    color: #333;
+    font-weight: normal;
+}
+
+#menu ul li a:hover {
+    background-color: #ff9900; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para las secciones */
+.seccion-verde {
+    background-color: #00c5cc; /* Verde claro */
+    text-align: center;
+    padding: 15px 0;
+}
+
+.seccion-blanca {
+    background-color: #fff; /* Blanco */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.seccion-negra {
+    background-color: #000; /* Negro */
+    color: #fff; /* Blanco */
+    text-align: center;
+    padding: 50px 0;
+}
+/* Estilos para el botón */
+.boton {
+    background-color: #7bfa04; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el formulario de consulta */
+#formularioConsulta form {
+    background-color: #f9f9f9; /* Color de fondo del formulario */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center; /* Centro el contenido del formulario */
+}
+
+#formularioConsulta form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#formularioConsulta form input[type="text"],
+#formularioConsulta form input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto; /* Centra los campos horizontalmente */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block; /* Asegura que cada campo esté en una línea separada */
+}
+
+#formularioConsulta form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto; /* Centra el textarea horizontalmente */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block; /* Asegura que el textarea esté en una línea separada */
+    resize: none; /* Evita que se pueda redimensionar el textarea */
+}
+
+#formularioConsulta form input[type="submit"] {
+    background-color: #7bfa04; /* Color de fondo del botón de enviar */
+    color: #fff; /* Color del texto del botón de enviar */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Asegura que el botón esté en una línea separada */
+    margin: 0 auto; /* Centra el botón horizontalmente */
+}
+
+#formularioConsulta form input[type="submit"]:hover {
+    background-color: #ff9900; /* Color de fondo del botón de enviar al pasar el ratón */
+}
+/*Servicios */
+/* Estilos para los botones "Solicitar" */
+.boton-solicitar {
+    background-color: #7bfa04; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 5px 10px; /* Ajusta el tamaño del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Márgen superior para separar los botones */
+    float: center; /* Coloca los botones a la derecha */
+}
+
+/* Estilos para separar los servicios */
+.servicio {
+    clear: both; /* Evita que los elementos floten alrededor de los servicios */
+    margin-bottom: 20px; /* Márgen inferior para separar los servicios */
+}
+
+
+ul {
+    display: inline;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000; /* Negro */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #fff; /* Blanco */
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+

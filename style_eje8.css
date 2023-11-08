@@ -1,0 +1,123 @@
+/* Estilo para el fondo de la página */
+body {
+    background-color: #f4f4f4; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Estilo para el encabezado */
+.header {
+    background-color: #333; /* Fondo negro para el encabezado */
+    color: #fff; /* Texto en color blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el título */
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.boton-volver {
+    margin-right:auto; /* Empuja el botón hacia la izquierda */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* estilos para los botones*/
+.boton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.boton img {
+    width: 50px; /* Ajusta el ancho de las imágenes según tu preferencia */
+    height: 50px; /* Ajusta la altura de las imágenes según tu preferencia */
+}
+
+.boton:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón por encima del botón */
+}
+
+.slideshow-container {
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.prev {
+    left: -40px;
+}
+
+.next {
+    right: -40px;
+}
+
+
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.menu-icon {
+    display: none;
+    float: right;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a:not(.menu-icon) {
+        display: none;
+    }
+
+    .navbar.responsive a {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

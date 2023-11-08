@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1: Cambio de Estilo al Clic</title>
+    <link rel="stylesheet" type="text/css" href="Style_ejercicio1.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a class="menu-icon" id="menuIcon">&#9776;</a>
+            <a class="active" href="index.html">Inicio</a>
+        </div> 
+    </header>
+    
+        <div class="elemento">Elemento para Cambiar de Color</div>
+        <button onclick="cambiarColor()">Cambiar Color</button>
+    
+        <script>
+            function cambiarColor() {
+                var elemento = document.querySelector('.elemento');
+                var letras = '0123456789ABCDEF';
+                var color = '#';
+                for (var i = 0; i < 6; i++) {
+                    color += letras[Math.floor(Math.random() * 16)];
+                }
+                elemento.style.backgroundColor = color;
+            }
+        </script>   
+      
+</body>
+</html>
